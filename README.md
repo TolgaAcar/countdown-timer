@@ -1,6 +1,6 @@
 # Countdown Timer
 
-For live demo: [Countdown timer on GitPages](https://tolgaacar.github.io/countdown-timer/)
+For live demo: [Countdown Timer on GitPages](https://tolgaacar.github.io/countdown-timer/)
 
 ## Overview
 
@@ -10,7 +10,7 @@ Users should be able to:
 
 ## Links
 
--   Live Site URL: [Countdown timer on GitPages](https://tolgaacar.github.io/countdown-timer/)
+-   Live Site URL: [Countdown Timer on GitPages](https://tolgaacar.github.io/countdown-timer/)
 
 ## Built with
 
@@ -20,7 +20,7 @@ Users should be able to:
 
 ### Frontend Mentor - Launch countdown timer
 
-This is a solution to the [Launch countdown timer](https://www.frontendmentor.io/challenges/launch-countdown-timer-N0XkGfyz-).
+This is a solution to the [Launch Countdown Timer](https://www.frontendmentor.io/challenges/launch-countdown-timer-N0XkGfyz-).
 
 ## Author
 
