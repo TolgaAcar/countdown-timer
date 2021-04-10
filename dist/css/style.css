@@ -1,0 +1,198 @@
+html {
+  font-size: 100%;
+  font-weight: 700;
+  height: 100vh;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  -webkit-box-sizing: inherit;
+          box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  font-family: "Red Hat Text", sans-serif;
+  font-size: 0.875rem;
+  overflow-x: hidden;
+  line-height: 1.3;
+  color: white;
+  background: url("../../images/bg-stars.svg") top/100% 80% no-repeat, url("../../images/pattern-hills.svg") bottom/100% 20% no-repeat, -webkit-gradient(linear, left top, left bottom, from(#191a24), to(#1e1f29));
+  background: url("../../images/bg-stars.svg") top/100% 80% no-repeat, url("../../images/pattern-hills.svg") bottom/100% 20% no-repeat, linear-gradient(to bottom, #191a24, #1e1f29);
+  background-repeat: no-repeat;
+}
+
+a,
+a:visited,
+a:hover {
+  text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+p {
+  margin-top: 0;
+}
+
+.container {
+  padding: 0 40px;
+  height: 100%;
+  max-width: 1024px;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.container .title {
+  font-size: 0.875rem;
+  text-align: center;
+  margin: 10% 0;
+}
+
+@media (min-width: 480px) {
+  .container .title {
+    font-size: 1.5625rem;
+  }
+}
+
+.container .countdown-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.container .countdown-container .countdown-item {
+  background-color: #343650;
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  height: auto;
+  border-radius: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  color: #d64f70;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-size: 32px;
+}
+
+@media (min-width: 480px) {
+  .container .countdown-container .countdown-item {
+    font-size: 65px;
+  }
+}
+
+@media (min-width: 768px) {
+  .container .countdown-container .countdown-item {
+    font-size: 96px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .container .countdown-container .countdown-item {
+    font-size: 130px;
+  }
+}
+
+.container .countdown-container .countdown-item:not(:last-child) {
+  margin-right: 15px;
+}
+
+@media (min-width: 768px) {
+  .container .countdown-container .countdown-item:not(:last-child) {
+    margin-right: 50px;
+  }
+}
+
+.container .countdown-container .countdown-item:before {
+  content: "";
+  display: block;
+  padding-top: 100%;
+  float: left;
+}
+
+.container .countdown-titles {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-size: 0.5rem;
+  margin-top: 5%;
+  text-align: center;
+  color: #8486a9;
+}
+
+@media (min-width: 480px) {
+  .container .countdown-titles {
+    font-size: 0.75rem;
+  }
+}
+
+@media (min-width: 768px) {
+  .container .countdown-titles {
+    font-size: 0.875rem;
+  }
+}
+
+.container .countdown-titles .title-item {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+}
+
+.container .countdown-titles .title-item:not(:last-child) {
+  margin-right: 15px;
+}
+
+@media (min-width: 768px) {
+  .container .countdown-titles .title-item:not(:last-child) {
+    margin-right: 50px;
+  }
+}
+
+.container .footer-icons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-bottom: 50px;
+  width: 100%;
+}
+
+.container .footer-icons .icon {
+  height: 20px;
+  width: 20px;
+}
+
+.container .footer-icons .icon img {
+  width: 100%;
+  height: 100%;
+}
+
+.container .footer-icons .icon:not(:last-child) {
+  margin-right: 15px;
+}
+/*# sourceMappingURL=style.css.map */

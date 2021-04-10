@@ -1,0 +1,112 @@
+.container {
+	padding: 0 $space-xsm;
+	height: 100%;
+	max-width: 1024px;
+	margin: 0 auto;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+
+	.title {
+		font-size: $font-med;
+		text-align: center;
+		margin: 10% 0;
+
+		@include breakpoint-up(small) {
+			font-size: $font-big;
+		}
+	}
+
+	.countdown-container {
+		display: flex;
+
+		.countdown-item {
+			background-color: $darkDesaturatedBlue;
+			flex: 1;
+			height: auto;
+			border-radius: 10px;
+			display: flex;
+			color: $pink;
+			align-items: center;
+			justify-content: center;
+			font-size: 32px;
+
+			@include breakpoint-up(small) {
+				font-size: 65px;
+			}
+
+			@include breakpoint-up(medium) {
+				font-size: 96px;
+			}
+
+			@include breakpoint-up(large) {
+				font-size: 130px;
+			}
+
+			&:not(:last-child) {
+				margin-right: 15px;
+
+				@include breakpoint-up(medium) {
+					margin-right: 50px;
+				}
+			}
+
+			&:before {
+				content: "";
+				display: block;
+				padding-top: 100%;
+				float: left;
+			}
+		}
+	}
+
+	.countdown-titles {
+		display: flex;
+		font-size: $font-xs;
+		margin-top: 5%;
+		text-align: center;
+		color: $lightGrey;
+
+		@include breakpoint-up(small) {
+			font-size: $font-sm;
+		}
+
+		@include breakpoint-up(medium) {
+			font-size: $font-med;
+		}
+
+		.title-item {
+			flex: 1;
+
+			&:not(:last-child) {
+				margin-right: 15px;
+
+				@include breakpoint-up(medium) {
+					margin-right: 50px;
+				}
+			}
+		}
+	}
+
+	.footer-icons {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		margin-bottom: 50px;
+		width: 100%;
+
+		.icon {
+			height: 20px;
+			width: 20px;
+
+			img {
+				width: 100%;
+				height: 100%;
+			}
+
+			&:not(:last-child) {
+				margin-right: 15px;
+			}
+		}
+	}
+}
