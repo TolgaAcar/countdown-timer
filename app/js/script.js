@@ -5,7 +5,7 @@ const minutesSpan = countdownContainer.querySelector(".minutes");
 const secondsSpan = countdownContainer.querySelector(".seconds");
 
 function countdownTimer() {
-	let distance = 172800000;
+	let distance = 171800000;
 	let days, hours, minutes, seconds;
 
 	var intervalTimer = setInterval(() => {
